@@ -1,4 +1,4 @@
-# CUDA-CUDNN Auto Installer Script
+# CUDA-CUDNN 11.8 Auto Installer Script
 
 This PowerShell script automates the installation of CUDA and cuDNN on Windows systems. It is designed to simplify the setup process for developers working with NVIDIA's CUDA technology.
 
