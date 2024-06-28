@@ -44,6 +44,12 @@ Set-ExecutionPolicy Bypass -Scope Process
 ```
 then repeat the process you can leave powershell open in admin mode to do this you dont have to close it
 
+## run script 
+
+```
+.\Cuda-Cudnn-Auto-Installer.ps1
+```
+
 ## Customization
 
 You can modify the script to download different versions of CUDA or cuDNN by changing the `$cudaUrl` and `$zipName` variables respectively.
