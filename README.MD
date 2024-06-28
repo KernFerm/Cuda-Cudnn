@@ -35,6 +35,15 @@ This PowerShell script automates the installation of CUDA and cuDNN on Windows s
 3. **Run Script**: Right-click the script and select "Run with PowerShell". Administrator privileges may be required.
 4. **Follow Instructions**: The script will guide you through the necessary steps, including downloading and installing CUDA, and setting up cuDNN.
 
+```
+cd your/path/of/the/ps1/file
+```
+### if usage doesnt work use this first run it then select `Y` thats it click enter then run the script again 
+```
+Set-ExecutionPolicy Bypass -Scope Process
+```
+then repeat the process you can leave powershell open in admin mode to do this you dont have to close it
+
 ## Customization
 
 You can modify the script to download different versions of CUDA or cuDNN by changing the `$cudaUrl` and `$zipName` variables respectively.
