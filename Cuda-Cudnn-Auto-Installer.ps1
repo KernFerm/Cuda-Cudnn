@@ -125,7 +125,7 @@ try {
 # Install the nightly versions of torch, torchvision, and torchaudio (CUDA 11.8)
 Log "Installing the nightly versions of torch, torchvision, and torchaudio..."
 try {
-    pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+    pip install torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2+cu118 --index-url https://download.pytorch.org/whl/cu118
     Log "Installed nightly versions of torch, torchvision, and torchaudio"
 } catch {
     Log "Error installing nightly versions of packages: $_"
