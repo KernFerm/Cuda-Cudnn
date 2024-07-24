@@ -25,8 +25,8 @@ This PowerShell script automates the installation of CUDA and cuDNN on Windows s
 # v7.4.4 Release of PowerShell - Latest (recommended)
       choose your recommended pc specs either 32bit or 64bit 
 
-- For `64-bit systems`, [Download 64-Bit Installer](https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x64.msi)
-- For `32-bit systems`, [Download 32-Bit Installer](https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x86.msi)
+- For Windows `64-bit systems`, [Download 64-Bit Installer](https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x64.msi)
+- For Windows `32-bit systems`, [Download 32-Bit Installer](https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x86.msi)
 
 
 # Logging Functionality in CUDA Installation PowerShell Script
